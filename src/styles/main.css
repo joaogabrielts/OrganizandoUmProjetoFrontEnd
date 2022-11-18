@@ -2,7 +2,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(224, 224, 224);
+    background-color: var(--color-background);
 }
 
 .card{
@@ -10,7 +10,7 @@ main{
     width: 350px;
     margin: 20px 0;
     font-size: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid var(--color-secondary);
     border-radius: 10px;
     background-image: linear-gradient(rgb(226, 226, 255), rgb(175, 175, 175));
     display: flex;
@@ -38,8 +38,8 @@ img{
     bottom: -20px;
     width: 100%;
     text-align: center;
-    background-color: brown;
-    color: white;
+    background-color: var(--color-tag);
+    color: var(--color-secondary);
     font-size: 32px;
 }
 
